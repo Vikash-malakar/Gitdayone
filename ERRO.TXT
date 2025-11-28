@@ -1,0 +1,29 @@
+PS C:\Users\Dell\OneDrive\Desktop\GitHUb> git init .
+Initialized empty Git repository in C:/Users/Dell/OneDrive/Desktop/GitHUb/.git/
+PS C:\Users\Dell\OneDrive\Desktop\GitHUb> git add .
+PS C:\Users\Dell\OneDrive\Desktop\GitHUb> git commit --m "day1"
+[master (root-commit) 051dec5] day1       
+ 1 file changed, 54 insertions(+)
+ create mode 100644 pr.py
+PS C:\Users\Dell\OneDrive\Desktop\GitHUb> git remote add origin https://github.com/Vikash-malakar/Gitdayone.git
+PS C:\Users\Dell\OneDrive\Desktop\GitHUb> git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Vikash-malakar/Gitdayone.git'
+PS C:\Users\Dell\OneDrive\Desktop\GitHUb> git remote add origin https://github.com/Vikash-malakar/Gitdayone.git
+error: remote origin already exists.
+PS C:\Users\Dell\OneDrive\Desktop\GitHUb> git push origin HEAD
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 553 bytes | 276.00 KiB/s, done. 
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Vikash-malakar/Gitdayone.git
+ * [new branch]      HEAD -> master
+PS C:\Users\Dell\OneDrive\Desktop\GitHUb> git pull origin master
+From https://github.com/Vikash-malakar/Gitdayone
+ * branch            master     -> FETCH_HEAD   
+Already up to date.
+PS C:\Users\Dell\OneDrive\Desktop\GitHUb> git clone origin HEAD
+fatal: repository 'origin' does not exist
+PS C:\Users\Dell\OneDrive\Desktop\GitHUb>  
