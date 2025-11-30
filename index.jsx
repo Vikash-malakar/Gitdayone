@@ -1,0 +1,78 @@
+
+  <h1 className=" font-bold text-center  m-3 text-3xl "> OUR MENU</h1>
+    <div className="flex justify-around gap-10">  
+       
+        
+          <button className="mt-8 bg-transparent border-1 rounded-3xl px-6 py-2 border-black  hover:bg-orange-300 hover:text-white" > DESSERTS </button>
+          <button className="mt-8 bg-transparent border-1 rounded-3xl px-6 py-2 border-black  hover:bg-orange-300 hover:text-white" > TOASTS</button>
+          <button className="mt-8 bg-transparent border-1 rounded-3xl px-6 py-2 border-black  hover:bg-orange-300 hover:text-white" > PIZZA </button>
+          <button className="mt-8 bg-transparent border-1 rounded-3xl px-6 py-2 border-black  hover:bg-orange-300 hover:text-white" > SALAD</button>
+          <button className="mt-8 bg-transparent border-1 rounded-3xl px-6 py-2 border-black  hover:bg-orange-300 hover:text-white" > DRINKS </button>
+
+        </div>    
+
+<div className="flex justify-around gap-10 m-5"> 
+
+<div>
+    <img src="img3.png" alt=""  className="w-full rounded-xl mb-3 transition-transform duration-500 hover:scale-105" />
+    <h1 className="font-bold text-2xl text-center"> Mexican burger </h1>
+    <p className="text-center font-semibold text-amber-600">$ 40.0
+     </p>
+
+</div>
+
+
+
+
+<div>
+    <img src="img2.png" alt=""  className="w-full rounded-xl mb-3 transition-transform duration-500 hover:scale-105" />
+    <h1 className="font-bold text-2xl text-center"> Mexican burger </h1>
+  <p className="text-center font-semibold text-amber-600">$ 40.0 </p>
+
+</div>
+
+
+
+
+<div>
+    <img src="img5.png" alt=""  className="w-full rounded-xl mb-3 transition-transform duration-500 hover:scale-105" />
+    <h1 className="font-bold text-2xl text-center"> Mexican burger </h1>
+    <p className="text-center"> A Mexican burger is a general  Mexican spices or topped with Mexican-inspired  or topped with Mexican-inspired 
+     </p>
+     <p className="text-center font-semibold text-amber-600">$ 40.0 </p>
+
+</div>
+
+
+
+<div>
+    <img src="img7.png" alt=""  className="w-full rounded-xl mb-3 transition-transform duration-500 hover:scale-105" />
+    <h1 className="font-bold text-2xl text-center"> Mexican burger </h1>
+    <p className="text-center font-semibold text-amber-600">$ 40.0
+     </p>
+
+</div>
+<div>
+    <img src="img6.png" alt=""  className="w-full rounded-xl mb-3 transition-transform duration-500 hover:scale-105" />
+    <h1 className="font-bold text-2xl text-center"> Mexican burger </h1>
+    <p className="text-center font-semibold text-amber-600">$ 40.0 </p>
+    
+
+</div>
+
+</div>
+</section>
+
+
+
+
+
+
+    
+
+    </>
+  )}
+
+
+
+  export default Project2
